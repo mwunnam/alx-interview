@@ -3,6 +3,7 @@
 Pascal Triangle
 """
 
+
 def pascal_triangle(n):
     """
     function to generate pascal's triangle
@@ -11,6 +12,7 @@ def pascal_triangle(n):
     """
     if n <= 0:
         return
+
     triangle = []
     for i in range(n):
         row = [1]
