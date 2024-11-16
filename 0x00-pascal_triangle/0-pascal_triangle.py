@@ -10,10 +10,10 @@ def pascal_triangle(n):
     Params: n (integer)
     Return: List
     """
-    if n <= 0:
-        return
-
     triangle = []
+    if n <= 0:
+        return triangle
+
     for i in range(n):
         row = [1]
         if triangle:
